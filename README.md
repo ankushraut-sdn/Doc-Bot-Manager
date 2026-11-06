@@ -2,9 +2,6 @@
 
 ## 1. Project Overview
 
-**Project Type:** Backend API (Flask)
-**Status:** Development
-
 A multi-tenant document chatbot platform. Users authenticate, create "bots," upload documents (PDF/TXT) to each bot, and the backend builds a FAISS vector index per bot so the bot can answer questions grounded in its own documents. Bots can also be embedded on external pages via a token-protected widget.
 
 ## 2. Core Features
